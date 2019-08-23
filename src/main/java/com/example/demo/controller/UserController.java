@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(description = "用户接口")
 @RestController
 @RequestMapping(value = "/user")
-public class UserController {//http://localhost:8080/swagger-ui.html#/
+public class UserController {//http://localhost:8080/swagger-ui.html#/   ++++
     @Autowired
     private UserService userService;
 
